@@ -1,11 +1,4 @@
-﻿using CSharpStudy.Var;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace CSharpStudy
+﻿namespace CSharpStudy
 {
     class mainTest
     {
@@ -13,10 +6,13 @@ namespace CSharpStudy
         {
             Var.Var var = new Var.Var();
             Array.Array array = new Array.Array();
-            
-            var.Method1();
+            String.stringTest string1 = new String.stringTest();
 
-            array.Method1();
+            //var.Method1();
+
+            //array.Method1();
+
+            string1.Method1();
         }
     }
 }
